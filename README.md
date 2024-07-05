@@ -8,7 +8,7 @@ Domain proyek ini akan membahas mengenai permasalahan dalam bidang otomotif yang
 
 Seiring meningkatnya jumlah produksi mobil baru dan munculnya berbagai model berdampak dengan melimpahnya mobil bekas, yang dapat menciptakan peluang bisnis bagi pembeli dan penjual. Adapun alasan lain mengapa masyarakat maupun pelaku bisnis lebih memilih mobil bekas dikarenakan pajak yang lebih terjangkau dan proses peralihan kepemilikan yang tidak sulit, sehingga menjadikan bisnis ini menjadi lebih menjanjikan. Mobil bekas memiliki harga jual yang menurun secara periodik, oleh karena itu estimasi harga jual mobil bekas sangat diperlukan dalam membantu pengusaha untuk menentukan harga jual. [[1]](https://repository.nusaputra.ac.id/id/eprint/590/1/YusdiansyaHaryadiArsyaf_TI22.pdf 'Mobil Bekas') 
 
-Pasar mobil bekas di Indonesia dari tahun ke tahun terus menunjukkan tren positif (meningkat). Pesatnya pertumbuhan sektor industri otomotif nasional dan melonjaknya angka penjualan mobil baru juga ikut mendorong penjualan mobil bekas di Indonesia. Konsumen dengan dana yang terbatas dinilai lebih tertarik membeli mobil bekas dari pada mobil baru. Apalagi mobil bekas dengan harga yang cukup menggiurkan dengan kualitas bagus. Tren ini bisa mengalihkan selera masyarakat yang akan membeli mobil karena pertimbangan harga yang murah dan terjangkau serta fasilitas dan keunggulan yang ditawarkan oleh mobil bekas tersebut. Munculnya mobil bekas ini akan menjadi tren tersendiri dan membuat segmen baru di masyarakat, khususnya masyarakat kelas menengah baru yang ingin memiliki mobil.[[2]](https://repository.nusaputra.ac.id/id/eprint/590/1/YusdiansyaHaryadiArsyaf_TI22.pdf 'Pasar Mobil Bekas')
+Pasar mobil bekas di Indonesia dari tahun ke tahun terus menunjukkan tren positif (meningkat). Pesatnya pertumbuhan sektor industri otomotif nasional dan melonjaknya angka penjualan mobil baru juga ikut mendorong penjualan mobil bekas di Indonesia. Konsumen dengan dana yang terbatas dinilai lebih tertarik membeli mobil bekas dari pada mobil baru. Apalagi mobil bekas dengan harga yang cukup menggiurkan dengan kualitas bagus. Tren ini bisa mengalihkan selera masyarakat yang akan membeli mobil karena pertimbangan harga yang murah dan terjangkau serta fasilitas dan keunggulan yang ditawarkan oleh mobil bekas tersebut. Munculnya mobil bekas ini akan menjadi tren tersendiri dan membuat segmen baru di masyarakat, khususnya masyarakat kelas menengah baru yang ingin memiliki mobil.[[2]](http://repo.unand.ac.id/907/3/bab%25201.pdf 'Pasar Mobil Bekas')
 
 Ford berdiri sejak 1903 dan menjadi salah satu merek otomotif tertua yang terus eksis hingga kini. Sementara di Indonesia mobil Ford telah hadir di Indonesia sejak 1950an. Nama Ford dengan banyaknya merek tersebut pudar seiring masuknya produsen Jepang pada 1970an. Ford baru kembali hadir pada medio 2000 melalui perusahaan baru Ford Motor Indonesia. Lalu baru pada 2001, perusahaan mulai berbisnis dengan menghadirkan sejumlah model anyar dari Ford di Tanah Air. Sejumlah model yang diniagakan Ford, antaranya Ranger, Everest, Focus, Escape Sporty, Fiesta, hingga EcoSport. Sedangkan data penjualan terakhir perusahaan pada 2015, berhasil melego sebanyak 4.986 unit.[[3]](https://www.gaikindo.or.id/ford-kembali-ke-indonesia-hadirkan-ranger-dan-everest/ 'Mobil Ford')
 
@@ -63,7 +63,7 @@ Berdasarkan penjelasan di atas, terdapat beberapa solusi yang dapat dilakukan un
      - Dapat digunakan dalam jumlah kelas yang berbeda-beda
      - Tidak memerlukan proses trainig dan pembangunan model, karena data baru secara langsung akan dikelaskan
      - Mudah jika ingin untuk melakukan penambahan data
-     - Parameter yang dibutuhkan hanya sedikit, yaitu jumlah k-tetangga (`n_neighbors`), dan metode perhitungan metrik jaraknya (`metric`) [[4]](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html 'sklearn.neighbors.KNeighborsRegressor')
+     - Parameter yang dibutuhkan hanya sedikit, yaitu jumlah k-tetangga (`n_neighbors`), dan metode perhitungan metrik jaraknya (`metric`) [[5]](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html 'sklearn.neighbors.KNeighborsRegressor')
      - Hasil pemodelan tidak linear, sehingga cocok untuk klasifikasi data yang batasannya tidak linear.
      
      Adapun kelemahan dari algoritma K-Nearest Neighbor, yaitu: [[4]](https://geospasialis.com/k-nearest-neighbor 'Mengenal K-Nearest Neighbor: Algoritma Populer untuk Machine Learning')
@@ -74,11 +74,11 @@ Berdasarkan penjelasan di atas, terdapat beberapa solusi yang dapat dilakukan un
      - Sangat sensitif pada data yang memiliki banyak *noise* (*noisy data*), data yang hilang (*missing data*), dan data dengan nilai yang ekstrem serta kemunculannya yang jarang (*outliers*).
      
    - **Algoritma Random Forest**  
-     Metode Random Forest merupakan jenis algoritma *supervised learning* dan termasuk ke dalam metode Decision Tree yang menggunakan kombinasi dari masing-masing model tree dan akan digabungkan menjadi sebuah model dalam membuat hasil prediksi akhir. Algoritma Random Forest menggunakan teknik *bagging* (*bootstrap aggregating*), di mana beberapa model akan dilatih dengan cara *random sampling with replacement*. [[5]](https://machinelearning.mipa.ugm.ac.id/2018/07/28/random-forest 'Random Forest')
+     Metode Random Forest merupakan jenis algoritma *supervised learning* dan termasuk ke dalam metode Decision Tree yang menggunakan kombinasi dari masing-masing model tree dan akan digabungkan menjadi sebuah model dalam membuat hasil prediksi akhir. Algoritma Random Forest menggunakan teknik *bagging* (*bootstrap aggregating*), di mana beberapa model akan dilatih dengan cara *random sampling with replacement*. [[6]](https://machinelearning.mipa.ugm.ac.id/2018/07/28/random-forest 'Random Forest')
      
      <img src="https://user-images.githubusercontent.com/64983961/188504775-b7e4aa9b-f1cd-41ef-8a70-a977db8f3d60.png" alt="Ilustrasi Algoritma Random Forest" title="Ilustrasi Algoritma Random Forest">
      
-     Setelah dilakukan pelatihan, prediksi untuk sampel yang tidak terlihat ($x'$) dapat dibuat dengan menghitung rata-rata prediksi dari semua pohon setiap individu model pada $x'$. [[6]](https://en.wikipedia.org/wiki/Random_forest#Bagging 'Random Forest - Bagging')
+     Setelah dilakukan pelatihan, prediksi untuk sampel yang tidak terlihat ($x'$) dapat dibuat dengan menghitung rata-rata prediksi dari semua pohon setiap individu model pada $x'$. [[7]](https://en.wikipedia.org/wiki/Random_forest#Bagging 'Random Forest - Bagging')
      $$\hat{f}=\frac{1}{B}\sum_{b=1}^{B} f_b(x^{'})$$
      
    - **Algoritma Adaptive Boosting**  
@@ -86,71 +86,50 @@ Berdasarkan penjelasan di atas, terdapat beberapa solusi yang dapat dilakukan un
      
      <img src="https://user-images.githubusercontent.com/64983961/188507801-30224052-cac2-4e99-9c67-2aec18de8e59.png" alt="Ilustrasi Algoritma Adaptive Boosting" title="Ilustrasi Algoritma Adaptive Boosting">
      
-     Algoritma AdaBoost mengacu kepada metode tertentu untuk melakukan pelatihan *classifier* yang di-*boosted*. Pengklasifikasian tersebut adalah pengklasifikasian dalam bentuk, [[6]](https://en.wikipedia.org/wiki/AdaBoost#Training 'AdaBoost - Training')
+     Algoritma AdaBoost mengacu kepada metode tertentu untuk melakukan pelatihan *classifier* yang di-*boosted*. Pengklasifikasian tersebut adalah pengklasifikasian dalam bentuk, [[8]](https://en.wikipedia.org/wiki/AdaBoost#Training 'AdaBoost - Training')
      $$F_T(x)=\sum_{t=q}^{T}f_t(x)$$
      di mana setiap $F_T$ adalah *learner* yang lemah yang mengambil objek $x$ sebagai input dan mengembalikan nilai yang menunjukkan kelas objek. Demikian juga pada pengklasifikasi $T$ merupakan nilai positif jika sampel berada dalam kelas positif, dan negatif jika sebaliknya.
 
 ## Data Understanding
 
-<img src="https://guruinovatif-my.sharepoint.com/my?id=%2Fpersonal%2Fmohfatchurrohman5244%5Fguruinovatif%5Fcom%2FDocuments%2Fpredictive%5Fanalytics%5Fford%2F100%2C000%20UK%20Used%20Car%20Data%20set%2EPNG&parent=%2Fpersonal%2Fmohfatchurrohman5244%5Fguruinovatif%5Fcom%2FDocuments%2Fpredictive%5Fanalytics%5Fford&parentview=0" alt="Electric Power Consumption Kaggle Dataset" title="Electric Power Consumption Kaggle Dataset" width="100%">
+<img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/100%2C000%20UK%20Used%20Car%20Data%20set.PNG" alt="100,000 UK Used Car Data set" title="100,000 UK Used Car Data set" width="100%">
 
-Data yang digunakan dalam proyek ini adalah *dataset* yang diambil dari Kaggle Dataset [Electric Power Consumption](https://www.kaggle.com/datasets/fedesoriano/electric-power-consumption 'Time series analysis of power consumption') dengan kategori *dataset*, yaitu *Energy* dan *Electricity*. Dalam *dataset* tersebut terdapat sebuah *file* atau berkas dengan nama `powerconsumption.csv` yang berekstensi (*file format*) `.csv` atau [comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values 'Comma-separated values') berukuran 4,33 MB.
+Data yang digunakan dalam proyek ini adalah *dataset* yang diambil dari Kaggle Dataset [100,000 UK Used Car Data set](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes '100,000 UK Used Car Data set'). Dalam *dataset* tersebut terdapat sebuah *file* atau berkas dengan nama `ford.csv` yang berekstensi (*file format*) `.csv` atau [comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values 'Comma-separated values') berukuran 933.29 kB.
 
-Dari *dataset* tersebut, masih perlu dilakukan penyesuaian hingga *dataset* dapat benar-benar digunakan. Beberapa penyesuaian tersebut, yaitu
-- Menghapus kolom yang tidak digunakan dalam model, yaitu kolom `GeneralDiffuseFlows`, dan kolom `DiffuseFlows`.
-  ```python
-   epower.drop('GeneralDiffuseFlows', inplace=True, axis=1)
-   epower.drop('DiffuseFlows',        inplace=True, axis=1)
-   ```
-- Mengubah format atau tipe data pada kolom `Datetime` dari format `string` menjadi `datetime`.
-  ```python
-  epower.Datetime = pd.to_datetime(epower.Datetime)
-  ```
-- Melakukan penguraian atau pemisahan kolom `Datetime` menjadi `Year`, `Month`, `Day`, `Hour`, dan `Minute`, lalu menghapus atau membuang (*drop*) kolom `Datetime`.
-  ```python
-  epower['Year']   = epower['Datetime'].apply(lambda date: date.year)
-  epower['Month']  = epower['Datetime'].apply(lambda date: date.month)
-  epower['Day']    = epower['Datetime'].apply(lambda date: date.day)
-  epower['Hour']   = epower['Datetime'].apply(lambda date: date.hour)
-  epower['Minute'] = epower['Datetime'].apply(lambda date: date.minute)
-  ```
-
-Kemudian dilakukan proses *Exploratory Data Analysis* (EDA) sebagai investigasi awal untuk menganalisis karakteristik, menemukan pola, anomali, dan memeriksa asumsi pada data dengan menggunakan teknik statistik dan representasi grafis atau visualisasi.
+Dari *dataset* tersebut, dilakukan proses *Exploratory Data Analysis* (EDA) sebagai investigasi awal untuk menganalisis karakteristik, menemukan pola, anomali, dan memeriksa asumsi pada data dengan menggunakan teknik statistik dan representasi grafis atau visualisasi.
 
 1. **Deskripsi Variabel**  
-   Berikut adalah informasi mengenai variabel-variabel yang terdapat pada *dataset* *Electric Power Consumption* adalah sebagai berikut,
+   Berikut adalah informasi mengenai variabel-variabel yang terdapat pada *dataset* *100,000 UK Used Car Data set* adalah sebagai berikut,
    
-   <img src="https://user-images.githubusercontent.com/64983961/188505396-dda2d93c-9266-4c80-bb67-6f7ae4e6e8aa.png" alt="Deskripsi Variabel" title="Deskripsi Variabel">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Deskripsi%20Variabel.PNG" alt="Deskripsi Variabel" title="Deskripsi Variabel">
    
-   Dari gambar di atas dapat dilihat bahwa terdapat 52.416 baris data dan 10 kolom atribut atau fitur. Di antaranya adalah enam (6) atribut/variabel dengan tipe data `float64 non-null` dan lima (5) atribut/variabel dengan tipe data `int64 non-null` yang merupakan hasil penguraian dari variabel `Datetime` yang sebelumnya memiliki tipe data `datetime64[ns]`. Berikut adalah keterangan untuk masing-masing variabel,
-   - `Temperature` : Temperatur
-   - `Humidity`    : Kelembaban
-   - `WindSpeed`   : Kecepatan angin
-   - `PowerConsumption_Zone1` : Konsumsi daya listrik di stasiun Quads, Tétouan, Maroko
-   - `PowerConsumption_Zone2` : Konsumsi daya listrik di stasiun Smir, Tétouan, Maroko
-   - `PowerConsumption_Zone3` : Konsumsi daya listrik di stasiun Boussafou, Tétouan, Maroko
-   - `Year`   : Tahun
-   - `Month`  : Bulan
-   - `Day`    : Tanggal
-   - `Hour`   : Jam
-   - `Minute` : Menit
+   Dari gambar di atas dapat dilihat bahwa terdapat 17.965 baris data dan 9 kolom atribut atau fitur. Di antaranya adalah dua (2) atribut/variabel dengan tipe data `float64 non-null` dan empat (4) atribut/variabel dengan tipe data `int64 non-null`, dan tiga (3) atribut/variabel dengan tipe data `object non-null`. Berikut adalah keterangan untuk masing-masing variabel,
+   - `model` : Model mobil Ford
+   - `year` : Tahun registrasi
+   - `price` : Harga
+   - `transmission` : Transmisi
+   - `mileage` : Jarak yang tempuh
+   - `fuelType` : Jenis bahan bakar
+   - `tax` : Pajak jalan
+   - `mpg` : Mil per galon
+   - `engineSize` : Ukuran mesin (dalam liter)
    
 2. **Deskripsi Statistik**  
    
-   <img src="https://user-images.githubusercontent.com/64983961/188506144-7b2f5f52-be07-47ef-96a5-c65dbba6452a.png" alt="Deskripsi Statistik" title="Deskripsi Statistik">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Deskripsi%20Statistik.PNG" alt="Deskripsi Statistik" title="Deskripsi Statistik">
    
 3. **Menangani Missing Value**  
    
-   <img src="https://user-images.githubusercontent.com/64983961/188506196-0c2457b4-123c-4e13-8954-5edb04c0ed17.png" alt="Menangani Missing Value" title="Menangani Missing Value">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Jumlah%20Nol.PNG" alt="Menangani Missing Value" title="Menangani Missing Value">
    
-   Berdasarkan gambar tersebut, tidak terdapat *missing value*.
+   Berdasarkan gambar tersebut, terdapat adanya nilai 0 di kolom `tax` ada 2153 dan di kolom `engineSize ` ada 51. Kemudian drop baris dengan nilai `tax` dan `engineSize ` yang terdapat nilai 0.
    
 4. **Menangani Outliers**  
    *Outliers* merupakan sampel data yang nilainya berada sangat jauh dari cakupan umum data utama yang dapat merusak hasil analisis data. Berikut adalah visualisasi *boxplot* untuk melakukan pengecekan keberadaan *outliers*.
    
-   <img src="https://user-images.githubusercontent.com/64983961/188506260-f27e7d3d-e16e-42e7-a31e-8812f2aca7ea.png" alt="Menangani Outliers - Sebelum" title="Menangani Outliers - Sebelum">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Menangani%20Outliers%20Sebelum.PNG" alt="Menangani Outliers - Sebelum" title="Menangani Outliers - Sebelum">
      
-   Berdasarkan gambar tersebut, terdapat *outliers* pada fitur `Temperature`, `Humidity`, `PowerConsumption_Zone2`, dan `PowerConsumption_Zone3`. Sehingga dilakukan proses pembersihan *outliers* dengan metode IQR (*Inter Quartile Range*).
+   Berdasarkan gambar tersebut, terdapat *outliers* pada fitur `year`, `price`, `mileage`, `tax`, `mpg`, dan `engineSize`. Sehingga dilakukan proses pembersihan *outliers* dengan metode IQR (*Inter Quartile Range*).
    
    $$IQR=Q_3-Q_1$$
    
@@ -163,32 +142,32 @@ Kemudian dilakukan proses *Exploratory Data Analysis* (EDA) sebagai investigasi 
    
    Setelah dilakukan pembersihan *outliers*, dilakukan kembali visualisasi *outliers* untuk melakukan pengecekan kembali sebagai berikut,
    
-   <img src="https://user-images.githubusercontent.com/64983961/188506280-e40fe70d-804c-457e-a6f3-7a89d425950d.png" alt="Menangani Outliers - Sesudah" title="Menangani Outliers - Sesudah">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Menangani%20Outliers%20Sesudah.PNG" alt="Menangani Outliers - Sesudah" title="Menangani Outliers - Sesudah">
    
-   Dari gambar di atas dapat dilihat bahwa *outliers* telah berkurang. Meskipun *outliers* masih terdapat pada fitur `Temperatur`, `Humidity`, `PowerConsumption_Zone2`, dan `PowerConsumption_Zone3`, tetapi masih dalam batas aman.
+   Dari gambar di atas dapat dilihat bahwa *outliers* telah berkurang. Meskipun *outliers* masih terdapat pada fitur `year`, `mileage`, dan `engineSize`, tetapi masih dalam batas aman.
    
 5. **Univariate Analysis**  
    Melakukan proses analisis data *univariate* pada fitur-fitur numerik. Proses analisis ini menggunakan bantuan visualisasi histogram untuk masing-masing fitur numerik.
    
-   <img src="https://user-images.githubusercontent.com/64983961/188506395-dae2772e-f61a-4ce2-b6ad-26acaa99c319.png" alt="Univariate Analysis" title="Univariate Analysis">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Univariate%20Analysis.png" alt="Univariate Analysis" title="Univariate Analysis">
    
    Dari data histogram di atas diperoleh informasi, yaitu:
-   - Temperatur menunjukkan *zero-skewed* atau histogram simetris/normal.
-   - Lebih dari 50% data kecepatan angin mendekati nilai 0, dan sisanya berada pada nilai 5.
-   - Konsumsi daya pada stasiun Quads (Zona 1) sebagian besar berada pada rentang daya 21.000 hingga 40.000, dan paling banyak berada pada daya sekitar 22.500.
-   - Konsumsi daya pada stasiun Smir (Zona 2) sebagian besar berada pada rentang daya 12.500 hingga 27.500, dan paling banyak berada pada daya sekitar 16.500.
-   - Konsumsi daya pada stasiun Boussafou (Zona 3) sebagian besar berada pada rentang daya 9.000 hingga 17.500, dan rentang 24.000 hingga 26.000, serta paling banyak berada pada daya sekitar 14.000.
-   - Data diambil pada tahun 2017.
+   - Penjualan mobil Ford paling banyak pada tahun 2018.
+   - Harga penjualan mobil Ford sebagian besar berada pada rentang 9500 sampai 18000, dan paling tinggi di harga sekitar 11000.
+   - Jarak tempuh pada mobil Ford yang terjual sebagian besar berada pada rentang 0 mile hingga 18000 mile, dan jarak tempuh yang paling panjang berada pada sekitar 10000 mile.
+   - Konsumsi bahan bakar (mil per galon) dari mobil Ford yang terjual sebagian besar pada rentang 55 mpg hingga 68 mpg, dan konsumsi bahan bakar dari mobil Ford paling banyak hingga 68 mpg.
+   - Ukuran mesin yang paling banyak adalah 1.0.
+   - Pendapatan pajak yang paling besar adalah 145.
    
 6. **Multivariate Analysis**  
    Melakukan visualisasi distribusi data pada fitur-fitur numerik dari *dataframe* `epower`. Visualisasi dilakukan dengan bantuan *library* `seaborn` `pairplot` menggunakan parameter `diag_kind`, yaitu `kde`, untuk melihat perkiraan distribusi probabilitas antar fitur numerik.
    
-   <img src="https://user-images.githubusercontent.com/64983961/188507899-65cd3a60-d19c-47d6-8d7d-c7b1a57364ea.png" alt="Multivariate Analysis" title="Multivariate Analysis">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Multivariate%20Analysis.png" alt="Multivariate Analysis" title="Multivariate Analysis">
    
 7. **Correlation Matrix with Heatmap**  
    Melakukan pengecekan korelasi antar fitur numerik dengan menggunakan visualisasi diagram *heatmap* *correlation matrix*.
    
-   <img src="https://user-images.githubusercontent.com/64983961/188507977-c0120633-e8c2-44f6-9bc6-1b59347ebf86.png" alt="Correlation Matrix with Heatmap" title="Correlation Matrix with Heatmap">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Correlation%20Matrix%20with%20Heatmap.png" alt="Correlation Matrix with Heatmap" title="Correlation Matrix with Heatmap">
    
    Dapat dilihat pada diagram *heatmap* di atas memiliki *range* atau rentang angka dari 1.0 hingga 0.4 dengan keterangan sebagai berikut,
    - Jika semakin mendekati 1, maka korelasi antar fitur numerik semakin kuat bernilai positif.
@@ -200,13 +179,9 @@ Kemudian dilakukan proses *Exploratory Data Analysis* (EDA) sebagai investigasi 
    Jika korelasi bernilai negatif, berarti nilai salah satu fitur numerik cenderung meningkat ketika nilai fitur numerik yang lain menurun.
 
 8. **Analisis Korelasi Antar Fitur**  
-   - Fitur `PowerConsumption_Zone1` memiliki korelasi yang cukup kuat dengan fitur `Temperature`, `Humidity`, dan `Hour`.
-   - Fitur `PowerConsumption_Zone2` memiliki korelasi yang cukup kuat dengan fitur `Temperature`, `Humidity`, `Month`, dan `Hour`.
-   - Fitur `PowerConsumption_Zone3` memiliki korelasi yang cukup kuat dengan fitur `Temperature`, `Humidity`, `Month`, dan `Hour`.
+   Fitur `price` memiliki korelasi yang cukup kuat dengan fitur `mileage`, `mpg` dan `engineSize`. Sehingga, fitur `tax` tidak memiliki korelasi dengan fitur `price`. Dengan begitu, dapat dilakukan *drop* (menghapus) fitur-fitur tersebut. Dengan begitu, dapat dilakukan *drop* (menghapus) fitur-fitur tersebut.
    
-   Sehingga, fitur `WindSpeed`, `Year`, `Day`, dan `Minute` memiliki korelasi yang paling rendah dengan fitur `PowerConsumption_Zone1`, `PowerConsumption_Zone2`, dan `PowerConsumption_Zone3`. Dengan begitu, dapat dilakukan *drop* (menghapus) fitur-fitur tersebut.
-   
-   <img src="https://user-images.githubusercontent.com/64983961/188507983-6b44443c-d576-4ab3-8dcf-f7b9cf22ad99.png" alt="Analisis Korelasi Antar Fitur" title="Analisis Korelasi Antar Fitur">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Analisis%20Korelasi%20Antar%20Fitur.PNG" alt="Analisis Korelasi Antar Fitur" title="Analisis Korelasi Antar Fitur">
 
 ## Data Preparation
 
@@ -216,15 +191,15 @@ Pada tahap persiapan data atau *data preparation* dilakukan berdasarkan penjelas
    Pembagian data dilakukan untuk memisahkan data keseluruhan menjadi dua (2) bagian, yaitu data latih (*training data*) dan data uji (*testing data*) dengan perbandingan rasio sebesar 90 : 10 menggunakan `train_test_split`.
    
     ```python
-    xTrain, xTest, yTrain, yTest = train_test_split(x, y, test_size=0.1, random_state=123)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, random_state = 123)
     ```
     
    Kemudian diperoleh hasil pembagian data masing-masing, yaitu sebagai berikut,
    
     ```python
-    Total seluruh sampel : 50931
-    Total data train     : 45837
-    Total data test      : 5094
+    Total seluruh sampel : 8401
+    Total data train     : 7560
+    Total data test      : 841
     ```
 
 2. **Standarisasi pada Fitur Numerik**  
@@ -232,17 +207,17 @@ Pada tahap persiapan data atau *data preparation* dilakukan berdasarkan penjelas
    
     ```python
     scaler = StandardScaler()
-    scaler.fit(xTrain[numericalFeatures])
-    xTrain[numericalFeatures]  = scaler.transform(xTrain.loc[:, numericalFeatures])
+    scaler.fit(X_train[numerical_features])
+    X_train[numerical_features] = scaler.transform(X_train.loc[:, numerical_features])
     ```
    
-   <img src="https://user-images.githubusercontent.com/64983961/188508047-08b6a450-aa39-4b2f-8b40-ef86e5adc216.png" alt="Standarisasi pada Fitur Numerik" title="Standarisasi pada Fitur Numerik">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Standarisasi%20pada%20Fitur%20Numerik.PNG" alt="Standarisasi pada Fitur Numerik" title="Standarisasi pada Fitur Numerik">
 
     ```python
-    xTrain[numericalFeatures].describe().round(4)
+    X_train[numerical_features].describe().round(4)
     ```
    
-   <img src="https://user-images.githubusercontent.com/64983961/188508061-75a22910-be6c-485a-a2da-e5364d75e311.png" alt="Deskripsi Statistik setelah Standarisasi" title="Deskripsi Statistik setelah Standarisasi">
+   <img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Deskripsi%20Statistik%20setelah%20Standarisasi.PNG" alt="Deskripsi Statistik setelah Standarisasi" title="Deskripsi Statistik setelah Standarisasi">
 
 ## Modelling
 
@@ -312,45 +287,43 @@ for name, model in modelDict.items():
     mse.loc[name, 'test']  = mean_squared_error(y_true=yTest,  y_pred=model.predict(xTest))/1e3
 ```
 
-<img src="https://user-images.githubusercontent.com/64983961/188511052-986610cd-7ef4-4f79-a7c1-eef777d3a4f8.png" alt="Evaluation" title="Evaluation">
+<img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Evaluation.PNG" alt="Evaluation" title="Evaluation">
 
 Dari data tabel tersebut dapat divisualisasikan pada grafik batang berikut.
 
-<img src="https://user-images.githubusercontent.com/64983961/188511209-7f53ee96-f76b-4252-b87c-5e27b0fed0fb.png" alt="Evaluation Graph" title="Evaluation Graph">
+<img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Evaluation%20Graph.png" alt="Evaluation Graph" title="Evaluation Graph">
 
 Dari visualisasi diagram di atas dapat disimpulkan bahwa,
-1. Model dengan algoritma Random Forest memberikan nilai *error* yang paling kecil, yaitu sebesar 583.1 pada *training error*, dan 1542.6 pada *testing error*.
-2. Model dengan algoritma K-Nearest Neighbor memiliki tingkat *error* yang sedang di antara dua algoritma lainnya.
-3. Model dengan algoritma Adaptive Boosting mengalami *error* yang paling beser dengan nilai *training error* sebesar 7602.37, dan nilai *testing error* sebesar 7436.21.
+1. Model dengan algoritma Random Forest memberikan nilai *error* yang paling kecil, yaitu sebesar 498.5 pada *training error*, dan 1542.5 pada *testing error*.
+2. Model dengan algoritma Adaptive Boosting memiliki tingkat *error* yang sedang di antara dua algoritma lainnya.
+3. Model dengan algoritma K-Nearest Neighbor mengalami *error* yang paling beser dengan nilai *training error* sebesar 9976.8, dan nilai *testing error* sebesar 13319.4.
 
-Selanjutnya adalah pengujian prediksi model dengan menggunakan beberapa nilai konsumsi daya (*power consumption*) dari data uji (*testing data*)
+Selanjutnya adalah pengujian prediksi model dengan menggunakan beberapa nilai harga (*price*) dari data uji (*testing*)
 
-<img src="https://user-images.githubusercontent.com/64983961/188511397-7664a384-d933-4962-9569-f42cdbdbcf69.png" alt="Testing Model" title="Testing Model">
+<img src="https://raw.githubusercontent.com/fathrrohmn/predictive_analytics_ford/main/ford%20gambar/Testing%20Model.PNG" alt="Testing Model" title="Testing Model">
 
 Dapat dilihat prediksi pada model dengan algoritma Random Forest memberikan hasi yang paling mendekati dengan nilai `y_true` jika dibandingkan dengan algoritma model yang lainnya.
 
-Nilai `y_true` sebesar **28507** dan nilai prediksi `Random Forest` sebesar **28308**.
+Nilai `y_true` sebesar **9750** dan nilai prediksi `Random Forest` sebesar **10032.9**.
 
-Kesimpulannya adalah model yang digunakan untuk melakukan prediksi penggunaan daya listrik (*electric power consumption*) menghasilkan **tingkat *error* yang paling rendah** dengan menggunakan **algoritma Random Forest** pada model yang telah dibangun.
+Kesimpulannya adalah model yang digunakan untuk melakukan prediksi harga mobil bekas produsen mobil Ford (*Used Car*) menghasilkan **tingkat *error* yang paling rendah** dengan menggunakan **algoritma Random Forest** pada model yang telah dibangun.
 
 ---
 
 ## Referensi
 
-[1] "Tétouan", Retrieved from: https://en.wikipedia.org/wiki/T%C3%A9touan
+[1] Yusdiansya Haryadi Arsyaf, "Prediksi Harga Mobil Bekas Menggunakan Metode Multivariate Linear Regression", *Skripsi*, 2022, Retrieved from: https://repository.nusaputra.ac.id/id/eprint/590/1/YusdiansyaHaryadiArsyaf_TI22.pdf
 
-[2] Enerdata, "Morocco Energy Information", Retrieved from: https://www.enerdata.net/estore/energy-market/morocco
+[2] N Fardillah, 2019, Retrieved from: http://repo.unand.ac.id/907/3/bab%25201.pdf
 
-[3] S. Hussein, "Mengenal K-Nearest Neighbor: Algoritma Populer untuk Machine Learning", *GEOSPASIALIS*, 2021, Retrieved from: https://geospasialis.com/k-nearest-neighbor
+[3] Gaikindo, "Ford kembali ke Indonesia, Hadirkan Ranger dan Everest", *Gaikindo*, 2022, Retrieved from: https://www.gaikindo.or.id/ford-kembali-ke-indonesia-hadirkan-ranger-dan-everest
 
-[4] scikit-learn, "sklearn.neighbors.KNeighborsRegressor", Retrieved from: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html
+[4] S. Hussein, "Mengenal K-Nearest Neighbor: Algoritma Populer untuk Machine Learning", *GEOSPASIALIS*, 2021, Retrieved from: https://geospasialis.com/k-nearest-neighbor
 
-[5] A. Yanuar, "Random Forest", *Universitas Gadjah Mada Menara Ilmu Machine Learning*, 2018, Retrieved from: https://machinelearning.mipa.ugm.ac.id/2018/07/28/random-forest
+[5] scikit-learn, "sklearn.neighbors.KNeighborsRegressor", Retrieved from: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html
 
-[6] "Random Forest", Retrieved from: https://en.wikipedia.org/wiki/Random_forest#Bagging
+[6] A. Yanuar, "Random Forest", *Universitas Gadjah Mada Menara Ilmu Machine Learning*, 2018, Retrieved from: https://machinelearning.mipa.ugm.ac.id/2018/07/28/random-forest
 
-[7] "AdaBoost", Retrieved from: https://en.wikipedia.org/wiki/AdaBoost#Training
+[7] "Random Forest", Retrieved from: https://en.wikipedia.org/wiki/Random_forest#Bagging
 
-[8] S. R. P. Nur Hidayatika, and S. N. W.P, "USULAN PENGGUNAAN METODE FORECASTING UNTUK PERMINTAAN KOPI ROBUSTA PADA PT. XYZ," *Industrial Engineering Online Journal*, vol. 4, no. 3, 2016, Retrieved from: https://ejournal3.undip.ac.id/index.php/ieoj/article/view/9002
-
-[9] A. Salam and A. E. Hibaoui, "Comparison of Machine Learning Algorithms for the Power Consumption Prediction : - Case Study of Tetouan city –," *2018 6th International Renewable and Sustainable Energy Conference (IRSEC)*, 2018, pp. 1-5, doi: 10.1109/IRSEC.2018.8703007.
+[8] "AdaBoost", Retrieved from: https://en.wikipedia.org/wiki/AdaBoost#Training
